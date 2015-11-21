@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+}
+
+#about_main
+{
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+}
+
+#about_title
+{
+	width: 1200px;
+	height: 130px;
+	margin: auto;
+	margin-top: -20px;
+	background-image: url(../img/gsjj.png);
+	background-size: cover;
+}
+
+#about_main h1
+{
+	margin: auto;
+	text-align: center;
+}
+
+#about_main img
+{
+	width: 1200px;
+}
+
+#about_text
+{
+	margin: auto;
+	width:1120px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	letter-spacing:2px;
+	line-height: 40px;
+	text-align:left;
+	word-wrap: break-word;
+	font-family: "新宋体";
+	font-size: 20px;
+	float: left;
+	color: #666666;
+}

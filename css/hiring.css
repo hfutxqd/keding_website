@@ -1,0 +1,55 @@
+body{
+	margin: 0px;
+	font-family: "新宋体";
+}
+
+#hiring_main
+{
+	margin: auto;
+	padding-top: 0px;
+}
+
+#hiring_title
+{
+	text-align: center;
+	font-size: 30px;
+	width: 1200px;
+	height: 180px;
+	margin: auto;
+	background-image: url(../img/rczp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hiring_content
+{
+	margin: auto;
+	padding: 15px;
+	width: 1170px;
+}
+
+#hiring_main a
+{
+	text-decoration:none;
+	color: black;
+	/*color:#ffffff;*/
+}
+
+#hiring_main a:hover{
+	color:#0066FF;
+}
+
+#hiring_main li{
+	list-style-image: url(../img/point.png);
+	padding-top: 15px;
+	border-bottom-color: #AAA;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+}
+
+#hiring_main li span{
+	float: right;
+	margin-right: 40px;
+	/*color:#ffffff;*/
+}
+

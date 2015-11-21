@@ -1,0 +1,44 @@
+body
+{
+	margin: 0px;
+}
+
+#article_main
+{
+	width: 998px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "方正大黑";
+	font-size: 20px;
+	color: #666666;
+	border: 1px solid #CCC;
+}
+
+#article_title
+{
+	font-size: 35px;
+	text-align: center;
+	word-wrap: break-word;
+	padding-top: 20px;
+}
+
+#article_time
+{
+	width: 980px;
+	word-wrap: break-word;
+	padding-right: 20px;
+	text-align: right;
+}
+
+#article_content
+{
+	width: 960px;
+	padding: 20px;
+	word-wrap: break-word;
+}
+
+#article_content img{
+	max-width: 960px;
+}

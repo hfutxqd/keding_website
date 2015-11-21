@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+	height: 600px;
+}
+
+#manager_main
+{
+	width: 1000px;
+	margin: auto;
+	font-family: "新宋体";
+	font-size: 20px;
+	text-align: left;
+	color: #666666;
+	line-height: 25px;
+	height: 500px;
+}
+
+#manager_main a{
+	text-decoration: none;
+}
+
+#list_content
+{
+	width: 960px;
+	padding: 20px;
+}
+
+#list_content li{
+	list-style: none;
+	word-wrap: break-word;
+}
+
+#list_content span{
+	float: right;
+}
+
+#footer
+{
+	width: 960px;
+	margin: auto;
+	text-align: right;
+}

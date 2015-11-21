@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<link rel="shortcut icon" href="favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
+<meta name="description" content="合肥科鼎电气有限公司批量生产各种类型的避雷器以及避雷器在线监测仪。" />
+<meta name="Keywords" content="智能数字式避雷器在线监测仪,合肥避雷器，避雷器,合肥科鼎电气有限公司，避雷器在线监测仪，科鼎，合肥科鼎，氧化锌避雷器" />
+<title>合肥科鼎电气有限公司</title>
+<script src="js/jquery-1.4.4.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<link rel="stylesheet" href="css/mannger.css"/>
+</head>
+<body>
+<div id="manager_main">
+	<div id="search_box">
+		<form target="content" action="<{spUrl c=admin a=manager_content}>" method="post">
+			请选择管理类别：
+			<select name="type" id="select_k1">
+		    <option value="news">新闻中心</option>
+			<option value="projects">经典案例</option>
+			<option value="products">产品中心</option>
+			<option value="hirings">人才招聘</option>
+		    </select>
+			<input type="submit" value="管理"/>
+		</form>
+	</div>
+	<div id="manager_content">
+		<iframe name="content" id="content" 
+			src="<{spUrl c=admin a=manager_content type=news}>">
+		</iframe>
+	</div>
+	
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+	margin: 0px;
+	font-family: "新宋体";
+}
+
+#talk_main{
+	margin: auto;
+	font-size: 20px;
+}
+
+#talk_title
+{
+	text-align: center;
+	font-size: 30px;
+	width: 1200px;
+	height: 180px;
+	margin: auto;
+	background-image: url(../img/jlzx.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#new_message
+{
+	width: 1170px;
+	margin: auto;
+	text-align: right;
+	padding: 15px;
+}
+
+#new_message a{
+	background-color: burlywood;
+	border-bottom: 2px solid #666;
+	padding: 5px;
+	color: snow;
+}
+
+#new_message a:hover{
+	border-bottom: 0px solid #666;
+	color: snow;
+}
+
+#talk_content
+{
+	margin: auto;
+	padding: 40px;
+	width: 1120px;
+}
+
+#talk_reply
+{
+	width: 1150px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#talk_reply span{
+	float: right;
+}
+
+#talk_main a
+{
+	text-decoration:none;
+}
+
+#talk_main a:hover{
+	color:#0066FF;
+}
+
+#talk_main li{
+	list-style-image: url(../img/point.png);
+	padding-top: 15px;
+	border-bottom-color: #AAA;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	display: block;
+	word-wrap: break-word;
+	width: 1140px;
+}
+
+#talk_main li font{
+	color: #AAA;
+	padding-left: 20px; 
+	font-size: 16px;
+}
+
+#talk_footer
+{
+	margin: 15px;
+	float: right;
+}

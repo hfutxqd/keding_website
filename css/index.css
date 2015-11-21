@@ -1,0 +1,176 @@
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+a{ 
+	text-decoration:none;color:#FFFFFF;
+}
+a:hover{
+	color:#0066FF;
+} 
+.STYLE7 {
+	font-family: "新宋体";
+	font-size: 20px;
+	color: #666666;
+}
+.STYLE8 {
+	font-size: 14px;
+	color: #666666;
+}
+.STYLE10 {
+	font-size: 18px;
+	color: #000000;
+}
+.STYLE11 {color: #CCCCCC}
+
+body{
+	text-align:center;
+	margin: 0px;
+	width: 1200px;
+}
+
+#index_main
+{
+	width: 1200px;
+	height: auto;
+	margin:auto;
+	text-align:center;
+}
+
+#container {
+	width:1200px;
+	padding:10px;
+	margin:auto;
+}
+
+#slides {
+	margin: auto;
+}
+
+.slides_container {
+	width:1200px;
+	height:300px;
+	overflow:hidden;
+	margin: auto;
+}
+
+.slides_container img
+{
+	width:1200px;
+	height:300px;
+	border: 0px;
+	margin: auto;
+}
+
+.pagination {
+	margin:5px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-position:0 0;
+	background-image:url(../img/pagination.png);
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+#index_content
+{
+	font-family: "新宋体";
+	font-size: 20px;
+	text-align: left;
+	color: #666666;
+	width: 1200px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	line-height: 25px;
+}
+
+#index_content a
+{
+	color: #666666;
+}
+
+#index_content a:hover{
+	color:#0066FF;
+} 
+
+#index_content li{
+	list-style: none;
+	/*list-style-image: url(img/list_icon.png);*/
+}
+
+#index_content li img{
+	margin-top: 8px;
+	margin-right: 10px;
+	float: left;
+}
+
+#index_content li a{
+	float: left;
+}
+
+#index_content li span{
+	font-size: 15px;
+	color: #BBB;
+	float: right;
+}
+.icon{
+	padding-right: 10px;
+}
+#content_box1
+{
+	background-color: #F4F4F4;
+	border: 1px solid #CED5DF;
+	margin-right: 37px;
+	width: 250px;
+	height: 240px;
+	float: left;
+	padding: 10px;
+}
+
+#content_box2
+{
+	background-color: #F4F4F4;
+	border: 1px solid #CED5DF;
+	margin-right: 37px;
+	width: 250px;
+	height: 240px;
+	float: left;
+	padding: 10px;
+}
+
+#content_box3
+{
+	background-color: #F4F4F4;
+	border: 1px solid #CED5DF;
+	margin-right: 37px;
+	width: 250px;
+	height: 240px;
+	float: left;
+	padding: 10px;
+}
+
+#content_box4
+{
+	background-color: #F4F4F4;
+	border: 1px solid #CED5DF;
+	width: 250px;
+	height: 240px;
+	float: left;
+	padding: 10px;
+}

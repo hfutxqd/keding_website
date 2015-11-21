@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<link rel="shortcut icon" href="favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
+<meta name="description" content="合肥科鼎电气有限公司批量生产各种类型的避雷器以及避雷器在线监测仪。" />
+<meta name="Keywords" content="智能数字式避雷器在线监测仪,合肥避雷器，避雷器,合肥科鼎电气有限公司，避雷器在线监测仪，科鼎，合肥科鼎，氧化锌避雷器" />
+<title>合肥科鼎电气有限公司</title>
+<script src="js/jquery-1.4.4.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<link rel="stylesheet" href="css/article.css"/>
+</head>
+<body>
+<div id="article_main">
+	<div id="article_title">
+		<{$article.title}>
+	</div>
+	<div id="article_time">
+		<{$article.time}>
+	</div>
+	<div id="article_content">
+		<{$article.content}>
+	</div>
+</div>
+</div>
+<script>
+	function calcPageHeight(doc) {
+        var cHeight = Math.max(doc.body.clientHeight, doc.documentElement.clientHeight)
+        var sHeight = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight)
+        var height  = Math.max(cHeight, sHeight)
+        return height
+    }
+    var height = calcPageHeight(document);
+   	parent.document.getElementById('win').style.height = height + 'px';
+</script>
+</body>
+</html>

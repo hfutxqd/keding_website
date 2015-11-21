@@ -1,0 +1,60 @@
+body{
+	margin: 0px;
+}
+
+#news_main{
+	margin: auto;
+	padding-top: 0px;
+}
+
+#news_title
+{
+	text-align: center;
+	font-size: 30px;
+	width: 1200px;
+	height: 180px;
+	margin: auto;
+	background-image: url(../img/xwzx.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#news_content
+{
+	margin: auto;
+	padding: 40px;
+	width: 1120px;
+	font-family: "新宋体";
+	font-size: 20px;
+}
+
+#news_main a
+{
+	text-decoration:none;
+	color: black;
+	/*color:#ffffff;*/
+}
+
+#news_main a:hover{
+	color:#0066FF;
+}
+
+#news_main li{
+	list-style-image: url(../img/point.png);
+	padding-top: 15px;
+	border-bottom-color: #AAA;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+}
+
+#news_main li span{
+	float: right;
+	margin-right: 40px;
+	color: #666;
+}
+
+#news_footer
+{
+	margin: 15px;
+	float: right;
+}

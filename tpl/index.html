@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<link rel="shortcut icon" href="favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset="utf8" />
+<meta name="description" content="合肥科鼎电气有限公司批量生产各种类型的避雷器以及避雷器在线监测仪。" />
+<meta name="Keywords" content="智能数字式避雷器在线监测仪,合肥避雷器，避雷器,合肥科鼎电气有限公司，避雷器在线监测仪，科鼎，合肥科鼎，氧化锌避雷器" />
+<title>合肥科鼎电气有限公司</title>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="js/frame_sub.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div id="index_main">
+	<div id="slides">
+	    <div class="slides_container" style="overflow:hidden">
+	      <div> <a href="#" target="frame" title="科鼎电气" target="_blank"><img src="img/0.jpg"/></a> </div>
+	      <div> <a href="#" target="frame" title="KT-DTMT避雷器在线监测仪" target="_blank"><img src="img/1.jpg"/></a> </div>
+	      <div> <a href="#" target="frame" title="锐意进取" target="_blank"><img src="img/2.jpg"/></a> </div>
+	      <div> <a href="#" target="frame" title="诚信立足" target="_blank"><img src="img/3.jpg"/></a> </div>
+	    </div>
+	</div>
+	<div id="index_content">
+		<div id="content_box1"><img class="icon" src="img/titleIcon.jpg"/>
+		<b><a href="<{spUrl c=main a=news}>">新闻中心</a></b>
+		<a href="<{spUrl c=main a=news}>" style="float:right">更多>></a>
+		<lu>
+			<{foreach from=$news item=one}>
+				<li><img src="img/list_icon.png"/><a href="<{spUrl c=main a=article type='news' id=$one.id}>"><{$one.title|truncate:13:'..'}></a>
+					<span><{$one.time|truncate:10:''}></span></li><br>
+			<{/foreach}>
+		</lu>
+		</div>
+		<div id="content_box2"><img class="icon" src="img/titleIcon.jpg"/><b><a href="<{spUrl c=main a=product}>">产品中心</a></b>
+		<a href="<{spUrl c=main a=product}>" style="float:right">更多>></a>
+		<lu>
+			<{foreach from=$product item=one}>
+				<li><img src="img/list_icon.png"/><a href="<{spUrl c=main a=article type='products' id=$one.id}>"><{$one.title|truncate:12:'..'}></a>
+					<span><{$one.time|truncate:10:''}></span></li><br>
+			<{/foreach}>
+		</lu>
+		</div>
+		<div id="content_box3"><img class="icon" src="img/titleIcon.jpg"/><b><a href="<{spUrl c=main a=project}>">经典案例</a></b>
+		<a href="<{spUrl c=main a=project}>" style="float:right">更多>></a>
+			<{foreach from=$project item=one}>
+				<li><img src="img/list_icon.png"/><a href="<{spUrl c=main a=article type='projects' id=$one.id}>"><{$one.title|truncate:12:'..'}></a>
+					<span><{$one.time|truncate:10:''}></span></li><br>
+			<{/foreach}>
+		</div>
+		<div id="content_box4"><img class="icon" src="img/titleIcon.jpg"/><b><a href="<{spUrl c=main a=hiring}>">人才招聘</a></b>
+		<a href="<{spUrl c=main a=hiring}>" style="float:right">更多>></a>
+		<lu>
+			<{foreach from=$hiring item=one}>
+				<li><img src="img/list_icon.png"/><a href="<{spUrl c=main a=article type='hirings' id=$one.id}>"><{$one.title|truncate:12:'..'}></a>
+					<span><{$one.time|truncate:10:''}></span></li><br>
+			<{/foreach}>
+		</lu>
+		</div>
+	</div>
+</div>
+</div>
+<script>
+	function calcPageHeight(doc) {
+        var cHeight = Math.max(doc.body.clientHeight, doc.documentElement.clientHeight);
+        var sHeight = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
+        var height  = Math.max(cHeight, sHeight);
+        return height;
+    }
+   	parent.document.getElementById('win').style.height = 650 + 'px';
+</script>
+</body>
+</html>

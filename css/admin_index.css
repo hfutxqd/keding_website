@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+}
+
+#admin_main
+{
+	margin: auto;
+}
+
+#admin_top
+{
+	width: calc(100% - 40px);
+	height: 80px;
+	background-color: #186DCC;
+	padding-top: 40px;
+	padding-left: 40px;
+	color: snow;
+	font-size:300%;
+}
+
+
+
+#admin_menu
+{
+	width: 180px;
+	height: 800px;
+	border: 3px double #186DCC;
+	float: left;
+}
+
+#admin_menu li
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 150%;
+}
+
+#admin_menu li:hover
+{
+	background-color: #186DCC;
+	color: snow;
+}
+
+#admin_content
+{
+	width: 1150px;
+	height: 800px;
+	border: 3px double #186DCC;
+	float: left;
+}
+
+#admin_frame
+{
+	width: 1150px;
+	height:800px;
+	float: left;
+}

@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+}
+
+#message_main
+{
+	width: 1200px;
+	margin: auto;
+}
+
+#talk_title
+{
+	text-align: center;
+	font-size: 30px;
+	width: 1200px;
+	height: 180px;
+	margin: auto;
+	background-image: url(../img/jlzx.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#message_content
+{
+	width: 1140px;
+	padding: 30px;
+	line-height: 30px;
+	font-family: "新宋体";
+	font-size: 20px;
+	color: #666666;
+}
+
+#message_content textarea
+{
+	width:1140px;
+	height:250px;
+	resize: none;
+}
+
+.button
+{
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+}
+.text
+{
+	width:1000px;
+}

@@ -1,0 +1,24 @@
+body{
+	margin: 0px;
+}
+
+#news_main{
+	margin: auto;
+	padding: 30px;
+	padding-top: 0px;
+	line-height: 2em;
+}
+
+#news_main span h1{
+	text-align: center;
+	width: 800px;
+}
+textarea
+{
+	display: block;
+}
+
+.text_title
+{
+	width: 740px;
+}

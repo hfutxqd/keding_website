@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+}
+
+#project_main{
+	margin: auto;
+	padding-top: 0px;
+}
+
+#project_title
+{
+	text-align: center;
+	font-size: 30px;
+	width: 1200px;
+	height: 180px;
+	margin: auto;
+	background-image: url(../img/jdal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project_content
+{
+	margin: auto;
+	padding: 40px;
+	width: 1120px;
+}
+
+#project_main a
+{
+	text-decoration:none;
+	color: black;
+	/*color:#ffffff;*/
+}
+
+#project_main a:hover{
+	color:#0066FF;
+}
+
+#project_main li{
+	list-style-image: url(../img/point.png);
+	padding-top: 15px;
+	border-bottom-color: #AAA;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+}
+
+#project_main li span{
+	float: right;
+	margin-right: 40px;
+	/*color:#ffffff;*/
+}
